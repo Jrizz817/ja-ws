@@ -5,7 +5,7 @@ const axios = require('axios'); // Pro keepalive
 // Configs
 const WEBSOCKET_URL = 'ws://51.81.32.143:8765'; // Cliente conecta aqui, pega dados externos
 const PORT = 8080; // Server hospedado local
-const KEEPALIVE_URL = 'https://httpbin.org/get'; // Mude pro seu ping
+const KEEPALIVE_URL = 'https://dark-ws.onrender.com'; // Mude pro seu ping
 const KEEPALIVE_INTERVAL = 120000; // 2 min
 
 let wsClient; // Cliente global pro externo
