@@ -1,0 +1,21 @@
+{
+  "name": "ws-client-server-keepalive",
+  "version": "1.0.0",
+  "description": "Cliente WS externo + server hospedado com broadcast e keepalive a cada 2 min",
+  "main": "ws-hub.js",
+  "scripts": {
+    "start": "node ws-hub.js",
+    "dev": "node --inspect ws-hub.js",
+    "install-deps": "npm install",
+    "test-syntax": "node -c ws-hub.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "ws": "^1.0.5",
+    "axios": "^1.7.7"
+  },
+  "author": "AnonDev",
+  "license": "MIT"
+}
